@@ -1,0 +1,23 @@
+{
+    "model_type": "LinearRegressionGD",
+    "equation": "f(x) = 0.031650 * x + 0.105805",
+    "weights": {
+        "a": 0.03165019529092581,
+        "b": 0.10580533287254745
+    },
+    "feature": "plocha",
+    "target": "cena",
+    "hyperparameters": {
+        "learning_rate": 0.05,
+        "epochs": 1000,
+        "log_interval": 100
+    },
+    "scaling": {
+        "x_mean": 139.5851851851852,
+        "x_std": 44.71993261526514
+    },
+    "ols_optimum": {
+        "a": 0.03165019529092584,
+        "b": 0.1058053328725439
+    }
+}

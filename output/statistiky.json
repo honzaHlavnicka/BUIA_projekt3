@@ -1,0 +1,36 @@
+{
+    "model_equation": "f(x) = 0.031650 * x + 0.105805",
+    "feature": "plocha",
+    "target": "cena",
+    "dataset_split": {
+        "train_samples": 405,
+        "test_samples": 45,
+        "ratio": "9:1",
+        "seed": 42
+    },
+    "train_metrics": {
+        "mse": 1.6128814440095989,
+        "mae": 0.9166525840081093,
+        "rmse": 1.2699926944709559,
+        "r2": 0.5539873228346676
+    },
+    "test_metrics": {
+        "mse": 1.5597554000657463,
+        "mae": 0.883070092050928,
+        "rmse": 1.2489016775013742,
+        "r2": 0.6823881706212103
+    },
+    "weights": {
+        "a_sklon": 0.03165019529092581,
+        "b_posun": 0.10580533287254745
+    },
+    "ols_optimal_reference": {
+        "a": 0.03165019529092584,
+        "b": 0.1058053328725439
+    },
+    "hyperparameters": {
+        "epochs": 1000,
+        "learning_rate": 0.05,
+        "log_interval": 100
+    }
+}
